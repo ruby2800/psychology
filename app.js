@@ -5,8 +5,13 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
+//頁面設定
 var index = require('./routes/index');
-var users = require('./routes/users');
+var depression = require('./routes/depression');
+var about = require('./routes/about');
+var anxiety = require('./routes/anxiety');
+var mad = require('./routes/mad');
+var food = require('./routes/food');
 
 var app = express();
 
@@ -22,8 +27,17 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+//導過去
 app.use('/', index);
-app.use('/users', users);
+app.use('/about', about);
+app.use('/depression', depression);
+app.use('/anxiety', anxiety);
+app.use('/food', food);
+app.use('/mad', mad);
+
+
+
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
