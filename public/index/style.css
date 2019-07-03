@@ -1,0 +1,29 @@
+body{
+    font-family: 微軟正黑體,simsun, Comic Sans MS;
+    background-image:url("logo.png");
+    background-size: cover;
+    height:auto; max-height:100%; max-width:100%; width:auto;
+
+}
+.nav-pills .nav-link {
+    border-radius: 6px;
+ }
+
+/*hover樣子*/ 
+#nav-item:hover  {
+    background-color: #F8F8F8;
+    border-radius: 6px; 
+    
+}
+
+/*標題列顏色等*/
+#u:hover{
+    color: black;
+}
+
+
+
+.nav-pills #u.active{
+    color: black;
+    background-color: #F8F8F8;
+}
