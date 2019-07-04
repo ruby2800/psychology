@@ -1,11 +1,4 @@
-body{
-    font-family: 微軟正黑體,simsun, Comic Sans MS;
-    
-    background-image:url("logo.png");
-    background-size: cover;
-    height:auto; max-height:100%; max-width:100%; width:auto;
 
-}
 #index{
     
     margin-left:14%;
