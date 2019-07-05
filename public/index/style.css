@@ -34,9 +34,15 @@
 #word{
     position:absolute;
     margin-left:1%;
-    margin-top:10%;
+    margin-top:9%;
     width: 40%;
     height:auto;
+}
+.active {
+    border-radius: 6px;
+    border-color: black;
+    background-color: #FFff99;
+    color: #007bff
 }
 
 /*大腦section動起來*/
