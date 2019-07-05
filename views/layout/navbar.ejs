@@ -1,10 +1,10 @@
 <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="navbar">
 
     <a href="/" class=" navbar-brand">
-        <img src='logo.png' id="logo">
+        <img src='/logo.png' id="logo">
     </a>
-    <img src="logoword.png"id="logoword">
-   
+    <img src="/logoword.png" id="logoword">
+
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class=" navbar-nav  ml-auto mr-0">
             <li class="nav-item " id="nav-item">
@@ -24,12 +24,11 @@
     </div>
 </nav>
 <style>
-
-    #navbar{
+    #navbar {
         background-color: rgba(204, 255, 255, .65);
 
     }
-   
+
 
     .nav-link:hover {
         border-radius: 6px;
@@ -37,9 +36,9 @@
     }
 
 
-    
 
-   .active {
+
+    .active {
         border-radius: 6px;
         border-color: black;
         background-color: #FFff99;
@@ -50,13 +49,34 @@
     #logo {
         border: 0;
         width: 10%;
-        height: auto
+        height: auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px;
     }
-    #logoword{
+
+    #logo:hover, #logo:active {
+        -ms-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+        text-decoration: none;
+    }
+
+    #logoword {
         width: 17%;
         height: auto;
         position: fixed;
-        margin-left:3%;
-        
+        margin-left: 3%;
+
     }
 </style>

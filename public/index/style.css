@@ -38,12 +38,12 @@
     width: 40%;
     height:auto;
 }
-.active {
-    border-radius: 6px;
-    border-color: black;
-    background-color: #FFff99;
-    color: #007bff
-}
+   .active {
+        border-radius: 6px;
+        border-color: black;
+        background-color: #FFff99;
+        color: #007bff
+    }
 
 /*大腦section動起來*/
 
