@@ -1,13 +1,19 @@
 .face{
     position:relative;
-    height: 15em;
- 
-  overflow: hidden;
-  width: 15em;
+   
+   padding-left:60%;
+    margin-top:10%;
+   
+}
+#index{
+  
+   position:absolute;
+   width: 30%;
+   height:auto;
 }
 
-
 #word{
+    position:absolute;
     margin-left:1%;
     margin-top:10%;
     width: 40%;
