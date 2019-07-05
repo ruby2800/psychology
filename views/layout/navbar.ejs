@@ -1,46 +1,67 @@
+<nav class="navbar navbar-light navbar-expand-lg fixed-top" id="navbar">
 
-<a href="/" class="fixed-top">
-    <img src='logo.png' id="logo">
-</a>
+    <a href="/" class=" navbar-brand">
+        <img src='logo.png' id="logo">
+    </a>
+    <img src="logoword.png"id="logoword">
+   
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class=" navbar-nav  ml-auto mr-0">
+            <li class="nav-item " id="nav-item">
+                <a href="/depression" class="nav-link " id="u">抑鬱症</a>
+            </li>
+            <li class="nav-item" id="nav-item">
+                <a href="/anxiety" class="nav-link " id="u">焦慮症</a>
+            </li>
+            <li class="nav-item" id="nav-item">
+                <a href="/mad" class="nav-link " id="u">躁鬱症</a>
+            </li>
+            <li class="nav-item" id="nav-item">
+                <a href="/food" class="nav-link " id="u">飲食失調症</a>
+            </li>
 
-<ul class="fixed-top nav nav-pills mb-3 justify-content-center nav-fill" id="tab" role="tablist">
-
-    <li class="nav-item " id="nav-item">
-        <a href="/depression" class="nav-link active">抑鬱症</a>
-    </li>
-    <li class="nav-item" id="nav-item">
-        <a href="/anxiety" class="nav-link " id="u">焦慮症</a>
-    </li>
-    <li class="nav-item" id="nav-item">
-        <a href="/mad" class="nav-link " id="u">躁鬱症</a>
-    </li>
-    <li class="nav-item" id="nav-item">
-        <a href="/food" class="nav-link " id="u">飲食失調症</a>
-    </li>
-
-</ul>
+        </ul>
+    </div>
+</nav>
 <style>
-    #tab {
-        padding-top: 2%;
-        padding-left: 10%;
-        padding-right: 5px;
+
+    #navbar{
+        background-color: rgba(204, 255, 255, .65);
+
+    }
+    #navbar-brand{
+       
     }
 
     #u:hover {
-        background-color:#FFff99;
+        border-radius: 6px;
+        background-color: #FFff99;
     }
 
     #u {
-        background-color: #CCFFFF;
+        border-radius: 6px;
+        border-color: #CCCCFF;
+        
+    
     }
 
     .nav-pills .nav-link.active {
+        border-radius: 6px;
+        border-color: black;
         background-color: #FFff99;
         color: #007bff
     }
 
     #logo {
-        width: 8%;
+        border: 0;
+        width: 10%;
         height: auto
+    }
+    #logoword{
+        width: 17%;
+        height: auto;
+        position: fixed;
+        margin-left:3%;
+        
     }
 </style>
