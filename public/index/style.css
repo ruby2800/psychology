@@ -1,12 +1,12 @@
-
-#index{
-    
-    margin-left:14%;
-    margin-top:8%;
-    width: 30%;
-    height:auto;
-    
+.face{
+    position:relative;
+    height: 15em;
+ 
+  overflow: hidden;
+  width: 15em;
 }
+
+
 #word{
     margin-left:1%;
     margin-top:10%;
