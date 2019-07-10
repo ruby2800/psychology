@@ -4,9 +4,7 @@ body{
    
 
 }
-#text{
-    padding-top:13vh;
-}
+
 ul.nav-pills {
     top: 13vh;
     position: fixed;
