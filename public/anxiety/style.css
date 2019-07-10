@@ -24,6 +24,15 @@ a:hover{
 #li{
     line-height:20vh;
 }
+ul li span:before{
+    content:'';
+    position:absolute;
+    border:1px dashed ;
+    left:25px;
+    bottom:0;
+    z-index:-1;
+    height:100%
+  }
 #fitem{
     padding-top:1vh;
 }
