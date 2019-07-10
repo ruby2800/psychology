@@ -3,12 +3,14 @@ ul.nav-pills {
     position: fixed;
   }
 button{
-    width: 45px;
-    height: 45px;
+    background-color: rgba(204, 255, 255);
+    border:none; 
     line-height: 45px;
     text-align: center;
     padding: 0;
     border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 #c{
     width: 45px;
@@ -24,15 +26,24 @@ a:hover{
 #li{
     line-height:20vh;
 }
+ul li span { 
+	display: inline-block;
+    width: 5px;
+}
 ul li span:before{
     content:'';
     position:absolute;
     border:1px dashed ;
-    left:25px;
-    bottom:0;
+    left:23px;
+    bottom:10%;
     z-index:-1;
-    height:100%
+    height:68%;
+    
+    
   }
 #fitem{
     padding-top:1vh;
+}
+#text{
+    padding-top:13vh;
 }
