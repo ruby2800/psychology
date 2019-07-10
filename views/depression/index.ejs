@@ -4,7 +4,7 @@
 <head>
     <% include ../layout/header %>
         <title>你只是心生病了</title>
-        <link rel="stylesheet" type="text/css" href="depression/style.css" />
+        <link rel="stylesheet" type="text/css" href="/depression/style.css" />
 
 </head>
 
@@ -12,7 +12,50 @@
     <header>
         <% include ../layout/navbar %>
     </header>
-    <main>
+    <main data-spy="scroll" data-target="#navbar-example" id="text">
+        <div class="row" id="navbar-example">
+            <nav id="navbar-example3" class="navbar navbar-light bg-light">
+
+                <nav class="nav nav-pills flex-column">
+                    <a class="nav-link " href="#action">核心特徵</a>
+
+                    <a class="nav-link" href="#dsm">DSM-5診斷</a>
+                    <a class="nav-link" href="#treat">治療方法</a>
+                    <!--<nav class="nav nav-pills flex-column">
+                        <a class="nav-link ml-3 my-1" href="#item-3-1">Item 3-1</a>
+                        <a class="nav-link ml-3 my-1" href="#item-3-2">Item 3-2</a>
+                    </nav>
+                -->
+                </nav>
+            </nav>
+
+            <div data-spy="scroll" data-target="#navbar-example3" data-offset="0">
+                <h4 id="action">核心特徵</h4>
+                <p></p>
+
+                <h4 id="dsm">DSM-5診斷</h4>
+                <p>下列症狀中，至少有5種至少持續2周,其中有1或2</p>
+                <p>情緒低沉，心境抑鬱（未成年人可能是易激惹）</p>
+                <p>對幾乎所有活動喪失興趣和愉快感</p>
+                <p> 體重或食欲明顯地增加或減少（5%）</p>
+                <p>睡眠障礙：失眠、嗜睡</p>
+                <p>精神運動性激越或遲緩</p> 
+                <p>疲倦乏力、缺乏精力</p>
+                <p>無價值感或過分的內疚，負罪感</p>
+                <p>注意力和思考力下降，猶豫不決</p>     
+                <p>自殺念慮與自殺行為</p>
+                <h4 id="treat">治療方法</h4>
+                <p>下列症狀中，至少有5種至少持續2周,其中有1或2</p>
+                <p>情緒低沉，心境抑鬱（未成年人可能是易激惹）</p>
+                <p>對幾乎所有活動喪失興趣和愉快感</p>
+                <p> 體重或食欲明顯地增加或減少（5%）</p>
+                <p>睡眠障礙：失眠、嗜睡</p>
+                <p>精神運動性激越或遲緩</p> 
+                <p>疲倦乏力、缺乏精力</p>
+                <p>無價值感或過分的內疚，負罪感</p>
+                <p>注意力和思考力下降，猶豫不決</p>     
+                <p>自殺念慮與自殺行為</p>
+        </div>
     </main>
     <footer>
         <% include ../layout/footer %>

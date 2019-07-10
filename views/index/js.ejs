@@ -1,13 +1,18 @@
 <script>
   $(document).ready(function(){
-      $("#logo").mouseover(function(){
-
-      })
+    var man_say = {
+            placement: 'right',
+            content:"哼，再玩我就生氣氣了喔(ﾒ ﾟ皿ﾟ)ﾒ"
+        };
+      $("#logo").mouseclick(function(){
+        $("#word").popover(man_say);
+      });
       $("#s4").mouseover(function(){
+        $("#n4").popover(man_say);
           $("#n4").addClass("active");
-      })
+      });
       $("#n4").mouseenter(function(){
           $("#n4").addClass("active");
-      })
+      });
   })
 </script>

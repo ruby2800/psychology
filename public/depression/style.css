@@ -1,0 +1,14 @@
+.progress{
+  position: absolute;left:50.5%;top:40%;width: 2.5%;height:50%;opacity: 0.8; filter: alpha(opacity=80);
+ }
+.progress-bar{
+  position:absolute;top:50%; width: 100%;height: 50%;
+ }
+body{
+    position: relative;
+    overflow-y: scroll;
+
+}
+#text{
+    padding-top:13vh;
+}
