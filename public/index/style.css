@@ -39,6 +39,15 @@
     width: 40%;
     height:auto;
 }
+#github{
+    width:10vh;
+    height:auto;
+    position: absolute;;
+   
+    margin-left:93%;
+     margin-top:24%;
+  p
+}
    .active {
         border-radius: 6px;
         border-color: black;
