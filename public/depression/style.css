@@ -9,21 +9,15 @@ ul.nav-pills {
   div.col-8 div {
     height: 500px;
   }
-#github .child{
+ #about .child{
+  width:10px;
+  height:auto;
+}
+img{
   width:6vh;
-  height:auto;
 }
-#about{
-  width:6px;
-  height:auto;
-}
- #page-link{
-  width:8vh;
-  height: 8vh;
-  display:block;
-  text-align: center;
-  font-size: 5vh;
-}
+
+
 a .page-link{
   display:block;
   text-align: center;
@@ -38,16 +32,17 @@ a .page-link{
 }
 #scrollall{
   position:fixed;
-  padding-left:58%;
-  width:10px;
+  float:left;
   height: auto;
 }
 #scrollall ul{
-  
+  vertical-align: middle;
   display:table-row;
 }
 #scrollall ul li{
   display:table-row;
+ 
+  vertical-align: middle;
   
 }
 
