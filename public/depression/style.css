@@ -14,7 +14,7 @@ ul.nav-pills {
   height:auto;
 }
 img{
-  width:6vh;
+  width:7vh;
 }
 
 
@@ -32,12 +32,17 @@ a .page-link{
 }
 #scrollall{
   position:fixed;
-  float:left;
+right:0px;
+top:30%;
+  float:right;
   height: auto;
+  
+
 }
 #scrollall ul{
   vertical-align: middle;
   display:table-row;
+  
 }
 #scrollall ul li{
   display:table-row;
