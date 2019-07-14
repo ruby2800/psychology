@@ -9,28 +9,45 @@ ul.nav-pills {
   div.col-8 div {
     height: 500px;
   }
-#github{
+#github .child{
   width:6vh;
   height:auto;
 }
 #about{
-  width:6vh;
+  width:6px;
   height:auto;
 }
-#page-link{
+ #page-link{
   width:8vh;
   height: 8vh;
+  display:block;
   text-align: center;
   font-size: 5vh;
 }
 a .page-link{
+  display:block;
   text-align: center;
 }
 #percent{
   width:15vh;
   height: 8vh;
   font-size: 5vh;
+  display:inline-block;
+  text-align: center;
+ 
 }
-#scroll{
-  vertical-align: top;
+#scrollall{
+  position:fixed;
+  padding-left:58%;
+  width:10px;
+  height: auto;
 }
+#scrollall ul{
+  
+  display:table-row;
+}
+#scrollall ul li{
+  display:table-row;
+  
+}
+
