@@ -1,8 +1,5 @@
-
 body{
     position: relative;
-   
-
 }
 
 ul.nav-pills {
@@ -13,7 +10,27 @@ ul.nav-pills {
     height: 500px;
   }
 #github{
-  width:40px;
+  width:6vh;
   height:auto;
 }
-
+#about{
+  width:6vh;
+  height:auto;
+}
+#page-link{
+  width:8vh;
+  height: 8vh;
+  text-align: center;
+  font-size: 5vh;
+}
+a .page-link{
+  text-align: center;
+}
+#percent{
+  width:15vh;
+  height: 8vh;
+  font-size: 5vh;
+}
+#scroll{
+  vertical-align: top;
+}
