@@ -48,6 +48,14 @@
      margin-top:24%;
   
 }
+#about{
+    width:10vh;
+    height:auto;
+    position: absolute;;
+   
+    margin-left:93%;
+     margin-top:19%;
+}
    .active {
         border-radius: 6px;
         border-color: black;
