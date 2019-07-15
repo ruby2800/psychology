@@ -1,0 +1,115 @@
+<% include js %>
+<script>
+    
+        $(document).ready(function () {
+    
+            $(window).on('scroll', function () {
+                var s = $(window).scrollTop();
+                var d = $(document).height();
+                var c = $(window).height();
+                var scrollPercent = Math.round((s / (d - c)) * 100);
+                var height = scrollPercent;
+                //html的%數顯示
+                document.getElementById('p').innerHTML = height;
+                //讓滾動輪可以動
+                let h = height + "%";
+                console.log(h);
+                document.body.style.setProperty('--height', h);//set
+    
+    
+            })
+    
+    
+    
+        })
+    </script>
+
+<nav aria-label=" Page navigation example " id="scrollall">
+
+    <ul class="pagination  " id="scroll ">
+        <li class="page-item ">
+            <a class="page-link " href="#top " id="page-link ">▲</a>
+        </li>
+        <li class="page-item ">
+            <a class="page-link " href="/about ">
+                <img src="/reunion.png " class="child " id="about ">
+            </a>
+        </li>
+        <li class="page-item disabled ">
+            <a class="page-link " id="percent " href="">
+                <p id="p"></p>%</a>
+        </li>
+        <li class="page-item ">
+            <a class="page-link " href="https://github.com/ruby2800/psychology ">
+                <img src="/github.png " class="child " id="github ">
+            </a>
+        </li>
+        <li class="page-item ">
+            <a class="page-link " href="#bottom " id="page-link ">▼</a>
+        </li>
+    </ul>
+</nav>
+
+
+
+
+
+<style>
+    /*滾輪條*/
+
+    html {
+        height: 100%;
+    }
+
+    body {
+        position:relative;
+        height: 300%;
+    }
+
+    img {
+        width: 7vh;
+        height: auto;
+    }
+
+    #p {
+        font-size: 4vh;
+    }
+
+
+    .page-link {
+
+        text-align: center;
+    }
+
+    #percent {
+        width: 15vh;
+        height: 8vh;
+        font-size: 5vh;
+        display: inline-block;
+        text-align: center;
+
+    }
+
+    #scrollall {
+        position: fixed;
+        right: 0px;
+        top: var(--height);
+        float: right;
+        height: auto;
+
+
+    }
+
+    #scrollall ul {
+        vertical-align: middle;
+        display: table-row;
+
+    }
+
+    #scrollall ul li {
+        display: table-row;
+
+        vertical-align: middle;
+
+    }
+</style>

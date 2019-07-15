@@ -1,9 +1,5 @@
-body{
-    position: relative;
-}
-/*滾輪條*/
-html{ height:100%; }
-body{ height:300%; }
+
+
 
 ul.nav-pills {
     top: 13vh;
@@ -16,45 +12,5 @@ ul.nav-pills {
   width:10px;
   height:auto;
 }
-img{
-  width:7vh;
-  height:auto;
-}
-#p{
-  font-size:4vh;
-}
 
-
-.page-link{
-  
-  text-align: center;
-}
-#percent{
-  width:15vh;
-  height: 8vh;
-  font-size: 5vh;
-  display:inline-block;
-  text-align: center;
- 
-}
-#scrollall{
-  position:fixed;
-  right:0px;
-  top:var(--height);
-  float:right;
-  height: auto;
-  
-
-}
-#scrollall ul{
-  vertical-align: middle;
-  display:table-row;
-  
-}
-#scrollall ul li{
-  display:table-row;
- 
-  vertical-align: middle;
-  
-}
 
