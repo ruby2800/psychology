@@ -1,6 +1,18 @@
+blockquote {
+  width: 80%;
+  margin: px;
+  padding: 25px;
+  line-height: 1.45;
+  position: relative;
+  color: #000000;
+  border-left: 5px solid #F8DF08;
+  background: #ffffff;
+  font-size: 16px;
+}
 
-
-
+#content{
+  padding-top:10vh;
+}
 ul.nav-pills {
     top: 13vh;
     position: fixed;
@@ -10,6 +22,15 @@ ul.nav-pills {
   }
  #about .child{
   width:10px;
+  height:auto;
+}
+#line{
+  margin:6vh;
+}
+#depress{
+  position:relative;
+  left:24%;
+  width:40%;
   height:auto;
 }
 
