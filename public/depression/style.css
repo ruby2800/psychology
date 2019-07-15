@@ -18,6 +18,10 @@ ul.nav-pills {
 }
 img{
   width:7vh;
+  height:auto;
+}
+#p{
+  font-size:4vh;
 }
 
 
@@ -35,8 +39,8 @@ img{
 }
 #scrollall{
   position:fixed;
-right:0px;
-top:30%;
+  right:0px;
+  top:var(--height);
   float:right;
   height: auto;
   

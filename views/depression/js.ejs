@@ -9,10 +9,13 @@
             var d = $(document).height();
             var c = $(window).height();
             var scrollPercent = Math.round((s / (d - c)) * 100);
-            console.log(scrollPercent);
             var height = scrollPercent;
-
+            //html的%數顯示
             document.getElementById('p').innerHTML = height;
+            //讓滾動輪可以動
+            let h =height+"%";
+            console.log(h);
+            document.body.style.setProperty('--height', h);//set
 
 
         })
