@@ -1,13 +1,22 @@
 <script>
     $(document).ready(function () {
 
+
+
         $('#n1').addClass("active");
-        var height_pct = Math.round(
-            $('#content').height() /
-            $('#content').parent().height() * 100
-        );
-        var height = height_pct+"%"
-        
-        document.getElementById('p').innerHTML = height;
+        $(window).on('scroll', function () {
+            var s = $(window).scrollTop();
+            var d = $(document).height();
+            var c = $(window).height();
+            var scrollPercent = Math.round((s / (d - c)) * 100);
+            console.log(scrollPercent);
+            var height = scrollPercent;
+
+            document.getElementById('p').innerHTML = height;
+
+
+        })
+
+
     })
 </script>
