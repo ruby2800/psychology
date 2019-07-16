@@ -1,4 +1,4 @@
-blockquote {
+#title {
   width: 80%;
   margin: px;
   padding: 25px;
@@ -9,7 +9,56 @@ blockquote {
   background: #ffffff;
   font-size: 16px;
 }
+#diagnose{
+  border-left: 5px solid white;
+  padding: 15px;
+  line-height: 1.2;
+}
+#list li{
+  margin: 0;
+  padding-top:15px;
+  padding-bottom:15px;
+padding-left:50px;
 
+  list-style: none;
+  
+	background: url('/depression/d_p.png')  ;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 4vh;
+}
+/*v.s*/
+.card-body{
+  text-align:center;
+}
+.card-title{
+  padding-top:2vh;
+}
+.card-deck{
+  width:85%;
+}
+#ex{
+  border-left: 5px solid #F8DF08;
+  padding: 15px;
+  
+}
+
+#card{
+  width:70%
+}
+#medicine{
+  padding-left:2vh;
+}
+#heart{
+  padding-left:2vh;
+}
+#card .active{
+  color:black;
+  background-color:white;
+}
+.list-group-item{
+  text-align:center;
+}
 #content{
   padding-top:10vh;
 }
@@ -17,9 +66,7 @@ ul.nav-pills {
     top: 13vh;
     position: fixed;
   }
-  div.col-8 div {
-    height: 500px;
-  }
+
  #about .child{
   width:10px;
   height:auto;
