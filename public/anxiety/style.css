@@ -1,11 +1,18 @@
+/*內容往左調*/
+.col-sm-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 19%;
+}
 #anxiety{
     position:relative;
-    left:24%;
+    left:30%;
     width:40%;
     height:auto;
   }
   /*開頭問題*/
   #title {
+    left:10%;
     width: 80%;
     margin: px;
     padding: 25px;
@@ -16,17 +23,47 @@
     background: #ffffff;
     font-size: 16px;
   }
+  #title2 {
+    left:40%;
+    position:relative;
+    width: 50%;
+    margin: px;
+    padding: 25px;
+    line-height: 1.45;
+  
+    color: #000000;
+    border-left: 5px solid #F8DF08;
+    background: #ffffff;
+    font-size: 16px;
+  }
   #diagnose{
+   
+    position: relative;;
+    left:40%;
     border-left: 5px solid white;
     padding: 15px;
     line-height: 1.2;
   }
+  #d_p{
+    padding-top:1%;
+    left:20%;
+    position:absolute;
+    width:15%;
+  }
+  #test{
+    background: url('/depression/d_p.png')  ;
+      background-repeat: no-repeat;
+      background-position: 25% ;
+      background-size: 15%;
+      
+  }
   #list li{
+ 
     margin: 0;
     padding-top:15px;
     padding-bottom:15px;
-  padding-left:50px;
-  
+  padding-left:5vh;
+  padding-right:5vh;
     list-style: none;
     
       background: url('/depression/d_p.png')  ;
@@ -43,6 +80,7 @@
   }
   .card-deck{
     width:95%;
+    padding-left:60px;
   }
   #ex{
     border-left: 5px solid #F8DF08;
@@ -51,7 +89,8 @@
   }
   
   #card{
-    width:70%
+    width:70%;
+    left:20%;
   }
   .tab-pane{
     padding-left:2vh;
@@ -68,6 +107,13 @@
   }
   #content{
     padding-top:10vh;
+    
+  }
+  .center{
+    text-align:center;
+  }
+  .left{
+    text-align:left;
   }
   ul.nav-pills {
       top: 13vh;
@@ -91,3 +137,33 @@
 body{
     position: relative;
 }
+/*放圖*/
+/*
+#nervous{
+  
+  background: url('/anxiety/nervous.png')  ;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 14vh;
+}*/
+#alert{
+  
+  background: url('/anxiety/alert.png')  ;
+  background-repeat: no-repeat;
+  background-position: 25%;
+  background-size: 11%;
+}
+#cry{
+  background: url('/anxiety/cry.png')  ;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 14vh;
+}
+#warning{
+  background: url('/anxiety/warning.png')  ;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 13vh;
+}
+
+
