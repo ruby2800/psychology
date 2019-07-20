@@ -1,26 +1,4 @@
-#food{
-    position:relative;
-    left:24%;
-    width:40%;
-    height:auto;
-  }
-  /*開頭問題*/
-  #title {
-    width: 80%;
-    margin: px;
-    padding: 25px;
-    line-height: 1.45;
-    position: relative;
-    color: #000000;
-    border-left: 5px solid #F8DF08;
-    background: #ffffff;
-    font-size: 16px;
-  }
-  #diagnose{
-    border-left: 5px solid white;
-    padding: 15px;
-    line-height: 1.2;
-  }
+
   #list li{
     margin: 0;
     padding-top:15px;
@@ -38,9 +16,7 @@
   .card-body{
     text-align:center;
   }
-  .card-title{
-    padding-top:2vh;
-  }
+
   .card-deck{
     width:95%;
   }
@@ -49,10 +25,14 @@
     padding: 15px;
     
   }
-  
-  #card{
-    width:70%
+  #note{
+    color:#666666;
   }
+ 
+  .left{
+    text-align:left;
+  }
+
   .tab-pane{
     padding-left:2vh;
   }
@@ -66,8 +46,9 @@
   .list-group-item{
     text-align:center;
   }
-  #content{
+  #content2{
     padding-top:10vh;
+    text-align:center;
   }
   ul.nav-pills {
       top: 13vh;
@@ -90,4 +71,98 @@
 
 body{
     position: relative;
+}
+#detail{
+  margin-left:18%;
+}
+/*共同*/
+
+  /*開頭問題*/
+  #title {
+    margin-left:12%;
+    width: 80%;
+    margin: px;
+    padding: 25px;
+    line-height: 1.45;
+    position: relative;
+    color: #000000;
+    border-left: 5px solid #F8DF08;
+    background: #ffffff;
+    font-size: 16px;
+  }
+  /*內容往左調*/
+.col-sm-3 {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 14%;
+}
+.card-title{
+  padding-top:2vh;
+  color:#996699;
+  font-weight:bold;
+}
+#card{
+  width:70%;
+  left:16%;
+}
+.card-deck{
+  margin-left:3%;
+}
+#diagnose{
+ 
+ margin-left:45%;
+  border-left: 5px solid white;
+  padding: 15px;
+  line-height: 1.2;
+}
+#d_p{
+  background: url('/d_p.png')  ;
+    background-repeat: no-repeat;
+    background-position:37% ;
+    background-size: 6%;
+    
+}
+/*放圖*/
+#food{
+  width:40%;
+  height:auto;
+}
+#vomit{
+  width:30%;
+  height:auto;
+}
+#slim{
+  width:30%;
+  height:auto;
+}
+#ill{
+  width:40%;
+  height:auto;
+}
+#die{
+  width:40%;
+  height:auto;
+}
+#baby{
+  width:12%;
+  height:auto;
+}
+#eat{
+  background: url('/food/eat.png')  ;
+    background-repeat: no-repeat;
+    background-position: 25% ;
+    background-size: 15%; 
+}
+#family{
+  background: url('/food/family.png')  ;
+    background-repeat: no-repeat;
+    background-position: 25% ;
+    background-size: 15%; 
+}
+#society{
+  
+  background: url('/food/society.png')  ;
+    background-repeat: no-repeat;
+    background-position: 25% ;
+    background-size: 15%; 
 }

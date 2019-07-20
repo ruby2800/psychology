@@ -44,14 +44,9 @@
     padding: 15px;
     line-height: 1.2;
   }
+
   #d_p{
-    padding-top:1%;
-    left:20%;
-    position:absolute;
-    width:15%;
-  }
-  #test{
-    background: url('/depression/d_p.png')  ;
+    background: url('/d_p.png')  ;
       background-repeat: no-repeat;
       background-position: 25% ;
       background-size: 15%;
@@ -77,6 +72,8 @@
   }
   .card-title{
     padding-top:2vh;
+    color:#996699;
+    font-weight:bold;
   }
   .card-deck{
     width:95%;
@@ -86,6 +83,9 @@
     border-left: 5px solid #F8DF08;
     padding: 15px;
     
+  }
+  #note{
+    color:#666666;
   }
   
   #card{
@@ -146,6 +146,30 @@ body{
   background-position: left center;
   background-size: 14vh;
 }*/
+#anxiety{
+  position:relative;
+  left:30%;
+  width:40%;
+  height:auto;
+}
+#sick{
+  position:relative;
+  
+  width:40%;
+  height:auto;
+}
+#social{
+  position:relative;
+  left:30%;
+  width:40%;
+  height:auto;
+}
+#sleep{
+  position:relative;
+  
+  width:40%;
+  height:auto;
+}
 #alert{
   
   background: url('/anxiety/alert.png')  ;
@@ -163,7 +187,7 @@ body{
   background: url('/anxiety/warning.png')  ;
   background-repeat: no-repeat;
   background-position: left center;
-  background-size: 13vh;
+  background-size: 10%;
 }
 
 
